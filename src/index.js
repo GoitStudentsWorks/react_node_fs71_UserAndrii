@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <GlobalStyles />
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/goose_track_project_front">
+        <BrowserRouter basename="/react_node_fs71_UserAndrii">
           <App />
         </BrowserRouter>
       </PersistGate>
